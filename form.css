@@ -1,0 +1,23 @@
+body {
+	background-color: #DEDEDE;
+
+}
+header.top {
+  background-color: #1F1C21;
+  margin: 0px 0px 0px 0px;
+  height:           100px;
+}
+header.top img#askmeLogo {
+	position: absolute; 
+left: 25px;
+top: 22px;
+}
+
+
+form {
+	display: table;
+	padding: 10px;
+	border: thin dotted #7e7e7e;
+	background-color: #FCE0D2;
+}
+

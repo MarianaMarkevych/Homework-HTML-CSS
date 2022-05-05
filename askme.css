@@ -1,0 +1,134 @@
+body { 
+  background-color: #DEDEDE;
+  font-family:      Helvetica, Georgia, "Times New Roman", Times, serif;
+  font-size:        small;
+  margin:           0px;
+}
+
+header.top {
+  background-color: #1F1C21;
+  margin: 0px 0px 0px 0px;
+  height:           100px;
+}
+
+header.top img#askmeSlogan {
+	position: absolute; 
+left: 565px;
+top: 30px;
+}
+
+header.top img#askmeLogo {
+	position: absolute; 
+left: 25px;
+top: 22px;
+}
+
+#footer {
+  background-color: #1F1C21;
+  color:            #DEDEDE;
+  padding:          15px;
+  margin:           0px;
+height:           40px;
+  font-size:        90%;
+}
+P.GitHub a:link, P.GitHub a:visited { color: #FAEAD5;
+Text-decoration: none;
+font-weight: bold;
+}
+P.GitHub a:hover { background: #FCE0D2; color: #1F1C21;}
+
+P.film { 
+text-align:       right;
+}
+
+
+P.film a:link, P.film a:visited  { color: #FAEAD5;
+Text-decoration: none;
+font-weight: bold;
+Float: right;
+}
+P.film a:hover { background: #FCE0D2; color: #1F1C21;
+}
+
+nav ul {
+	margin: 0px;
+	list-style-type: none;
+	padding: 38px 32px 32px 0px;
+Float: right;
+}
+nav ul li {
+	display: inline;
+	padding: 15px 4px 15px 15px;
+}
+ul li a:link, ul li a:visited { color: #DEDEDE;
+Text-decoration: none;
+Font-size: 135%;
+font-weight: bold; }
+
+ul li.selected { 
+Text-decoration: underline; }
+ul li.selected a:hover { background: #FAEAD5; color: #1F1C21;}
+
+
+
+div#tableContainer {
+	display: table;
+	border-spacing: 10px;
+}
+
+div#tableRow {
+	display: table-row;
+}
+
+
+
+section#CORSETS {
+    display: table-cell;
+    background-color: #FFFFFF;
+    width: 18.2%;
+    padding: 2px;
+    vertical-align: top;
+Text-align: center;
+background-image: url(images/sign.gif);
+Background-position: top left; 
+background-repeat: repeat-x 
+}
+section#CORSETS h2 {
+color: #E8AE93;
+}
+
+
+section#main {
+  display: table-cell;
+  background:       #FCE0D2;
+  font-size:        115%;
+line-height: 1.3em;
+  padding:          20px;
+  vertical-align: top;
+width: 53.1%;
+background-image: url(images/sign2.gif);
+Background-position: top left; 
+background-repeat: repeat-x}
+section#main a:link, section#main a:visited { color: #1F1C21;
+font-size:        80%;
+Text-decoration: underline;
+font-weight: bold;}
+section#main a:hover { background: #FCE0D2; color: #1F1C21;}
+
+aside {
+  display: table-cell;
+  background:       #FAEAD5;
+  font-size:        105%;
+  padding:          20px;
+  vertical-align: top;
+background-image: url(images/sign3.gif);
+Background-position: top left; 
+background-repeat: repeat-x}
+
+aside P.online a:link, P.online a:visited { color: #DB0209;
+Text-decoration: underline overline;
+font-weight: bold;}
+P.online a:hover { background: #FCE0D2; color: #1F1C21;}
+
+
+
